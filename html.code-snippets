@@ -347,5 +347,45 @@
 			"<button type=\"button\" class=\"btn btn-outline-dark\">${2}</button>",
 		],
 		"description": "This is dark button of the Bootstrap"
+	},
+	"Large Button in Bootstrap": {
+		"scope": "html",
+		"prefix": "btsp:btn:lg",
+		"body": [
+			"<button type=\"button\" class=\"btn btn-${1} btn-lg\">${2}</button>",
+		],
+		"description": "This is a large button in the Bootstrap"
+	},
+	"Small Button in Bootstrap": {
+		"scope": "html",
+		"prefix": "btsp:btn:sm",
+		"body": [
+			"<button type=\"button\" class=\"btn btn-${1} btn-sm\">${2}</button>",
+		],
+		"description": "This is a small button in the Bootstrap"
+	},
+	"Block Button in Bootstrap": {
+		"scope": "html",
+		"prefix": "btsp:btn:block",
+		"body": [
+			"<button type=\"button\" class=\"btn btn-${1} btn-block\">${2}</button>",
+		],
+		"description": "This is a block button in the Bootstrap"
+	},
+	"Disabled Button in Bootstrap": {
+		"scope": "html",
+		"prefix": "btsp:btn:disabled",
+		"body": [
+			"<button type=\"button\" class=\"btn btn-${1} btn-disabled\">${2}</button>",
+		],
+		"description": "This is a disabled button in the Bootstrap"
+	},
+	"General Button in Bootstrap": {
+		"scope": "html",
+		"prefix": "btsp:btn:general",
+		"body": [
+			"<button type=\"button\" class=\"btn btn-${1} btn-${2} btn-${3}\">${4}</button>",
+		],
+		"description": "This is a general button in the Bootstrap"
 	}
 }

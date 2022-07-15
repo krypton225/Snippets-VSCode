@@ -1,0 +1,32 @@
+{
+	"Get element with its id by using getElementById() shortcut": {
+		"scope": "javascript",
+		"prefix": "get-id",
+		"body": "const ${1} = document.getElementById(\"${2}\");",
+		"description": "Get element with its id by using getElementById()"
+	},
+	"Get elements with its class name by using getElementsByClassName() shortcut": {
+		"scope": "javascript",
+		"prefix": "get-classes",
+		"body": "const ${1} = document.getElementsByClassName(\"${2}\");",
+		"description": "Get elements with its classes by using getElementsByClassName()"
+	},
+	"Get elements with its tag name by using getElementsByTagName() shortcut": {
+		"scope": "javascript",
+		"prefix": "get-tagNames",
+		"body": "const ${1} = document.getElementsByTagName(\"${2}\");",
+		"description": "Get elements with its tag name by using getElementsByTagName()"
+	},
+	"Using fetch API": {
+		"scope": "javascript",
+		"prefix": "mk-fetch",
+		"body": [
+			"fetch(${1})",
+			".then((res) => res.json())",
+			".then((data) => {\n\t\t${3}\n})",
+			".catch((err) => {",
+			"\t\tconsole.log(\"${2}\");",
+			"});"
+		]
+	}
+}

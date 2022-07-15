@@ -99,7 +99,7 @@
 	},
 	"A custom navbar": {
 		"scope": "html",
-		"prefix": "khaled",
+		"prefix": "nav:custom",
 		"body": [
 			"<nav class=\"navbar\" id=\"navbar\">",
 			"<h1 class=\"navbar__brand\" id=\"navbarBrand\">",
@@ -125,5 +125,101 @@
 			"</nav> <!-- ./navbar -->"
 		],
 		"description": "This is a custom navbar created by me!"
+	},
+	"Native alert of Bootstrap": {
+		"scope": "html",
+		"prefix": "btsp:alert",
+		"body": "<div class=\"alert alert-${1}\" role=\"alert\">\n\t${2}\n</div> <!-- alert -->",
+		"description": "This is the alert of the bootstrap"
+	},
+	"Primary alert of Bootstrap": {
+		"scope": "html",
+		"prefix": "btsp:alert:primary",
+		"body": "<div class=\"alert alert-primary\" role=\"alert\">\n\t${1}\n</div> <!-- alert -->",
+		"description": "This is the primary alert of the bootstrap"
+	},
+	"Secondary alert of Bootstrap": {
+		"scope": "html",
+		"prefix": "btsp:alert:sec",
+		"body": "<div class=\"alert alert-secondary\" role=\"alert\">\n\t${1}\n</div> <!-- alert -->",
+		"description": "This is the secondary alert of the bootstrap"
+	},
+	"Success alert of Bootstrap": {
+		"scope": "html",
+		"prefix": "btsp:alert:success",
+		"body": "<div class=\"alert alert-success\" role=\"alert\">\n\t${1}\n</div> <!-- alert -->",
+		"description": "This is the success alert of the bootstrap"
+	},
+	"Danger alert of Bootstrap": {
+		"scope": "html",
+		"prefix": "btsp:alert:danger",
+		"body": "<div class=\"alert alert-danger\" role=\"alert\">\n\t${1}\n</div> <!-- alert -->",
+		"description": "This is the danger alert of the bootstrap"
+	},
+	"Warning alert of Bootstrap": {
+		"scope": "html",
+		"prefix": "btsp:alert:warning",
+		"body": "<div class=\"alert alert-warning\" role=\"alert\">\n\t${1}\n</div> <!-- alert -->",
+		"description": "This is the warning alert of the bootstrap"
+	},
+	"Info alert of Bootstrap": {
+		"scope": "html",
+		"prefix": "btsp:alert:info",
+		"body": "<div class=\"alert alert-info\" role=\"alert\">\n\t${1}\n</div> <!-- alert -->",
+		"description": "This is the info alert of the bootstrap"
+	},
+	"Light alert of Bootstrap": {
+		"scope": "html",
+		"prefix": "btsp:alert:light",
+		"body": "<div class=\"alert alert-light\" role=\"alert\">\n\t${1}\n</div> <!-- alert -->",
+		"description": "This is the light alert of the bootstrap"
+	},
+	"Dark alert of Bootstrap": {
+		"scope": "html",
+		"prefix": "btsp:alert:dark",
+		"body": "<div class=\"alert alert-dark\" role=\"alert\">\n\t${1}\n</div> <!-- alert -->",
+		"description": "This is the dark alert of the bootstrap"
+	},
+	"Dismissible alert of Bootstrap": {
+		"scope": "html",
+		"prefix": "btsp:alert:dismissible",
+		"body": "<div class=\"alert alert-dismissible\" role=\"alert\">\n\t${1}\n</div> <!-- alert -->",
+		"description": "This is the dismissible alert of the bootstrap"
+	},
+	"Dismissible-Close alert of Bootstrap": {
+		"scope": "html",
+		"prefix": "btsp:alert:dismissible:close",
+		"body": [
+			"<div class=\"alert alert-dismissible fade show\" role=\"alert\">",
+			"\t${1}",
+			"<button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\">",
+			"<span aria-hidden=\"true\">&times;</span>",
+			"</button> <!-- ./close -->${2}",
+			"</div> <!-- alert -->"
+		],
+		"description": "This is the dismissible alert of the bootstrap with its close button"
+	},
+	"Native alert of Bootstrap with the close button": {
+		"scope": "html",
+		"prefix": "btsp:alert:alert-with-close",
+		"body": [
+			"<div class=\"alert alert-${1} fade show\" role=\"alert\">",
+			"\t${2}",
+			"<button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\">",
+			"<span aria-hidden=\"true\">&times;</span>",
+			"</button> <!-- ./close -->${3}",
+			"</div> <!-- alert -->"
+		],
+		"description": "This is the dismissible alert of the bootstrap with its close button"
+	},
+	"Close button in Bootstrap": {
+		"scope": "html",
+		"prefix": "btsp:alert:btnclose",
+		"body": [
+			"<button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\">",
+			"<span aria-hidden=\"true\">&times;</span>",
+			"</button> <!-- ./close -->${2}"
+		],
+		"description": "This is close button of the Bootstrap"
 	}
 }

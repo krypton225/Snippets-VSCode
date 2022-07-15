@@ -1,0 +1,87 @@
+{
+	"Reset all properties shortcut": {
+		"scope": "css",
+		"prefix": "reset",
+		"body": "margin: 0; \npadding: 0; \nbox-sizing: border-box;",
+		"description": "This is for reset all properties in css *"
+	},
+	"Remove tap highlighted color shortcut": {
+		"scope": "css",
+		"prefix": "rmv-tap",
+		"body": "-webkit-tap-highlight-color: transparent !important;",
+		"description": "This is for reset all properties in css *"
+	},
+	"container with its media queries shortcut": {
+		"scope": "css",
+		"prefix": "cnr",
+		"body": [
+			".container {",
+			"padding-left: 15px;",
+			"padding-right: 15px;",
+			"margin-left: auto;",
+			"margin-right: auto;}",
+			"\n\n/* Small */\n@media (min-width: 768px)",
+			"{\n.container {\nwidth:750px;\n}\n}",
+			"\n\n/* Medium */\n@media (min-width: 992px)",
+			"{\n.container {\nwidth: 970px;\n}\n}",
+			"\n\n/* Large */\n@media (min-width: 1200px)",
+			"{\n.container {\nwidth: 1170px;\n}\n}\n\n"
+		],
+		"description": "A normal utility class for making container div."
+	},
+	"Centerize the elements in a div with flex": {
+		"scope": "css",
+		"prefix": "center-flex",
+		"body": [
+			"display: flex;",
+			"justify-content: center;",
+			"align-items: center;"
+		],
+		"description": "This is for centerizing in css with flex box."
+	},
+	"Making the top comment to index all in the page": {
+		"scope": "css",
+		"prefix": "cmnt",
+		"body": [
+			"/* *",
+			" * *********************************************************************",
+			" * ******************** (INDEX FILE) ***********************************\n",
+			" \t* 1- Elements Styles: ",
+			" \t\t* 1.1- ${1}",
+			" \t* 2- Classes Styles: ",
+			" \t\t* 2.1- ${2}",
+			" \n* **********************************************************************",
+			" * *********************************************************************",
+			"* */"
+		],
+		"description": "This is for putting comments in the top of the css file to index all things in it!"
+	},
+	"Making a custom scroll bar": {
+		"scope": "css",
+		"prefix": "scroll",
+		"body": [
+			"body::-webkit-scrollbar {",
+			"\twidth: ${1:0.3}rem;",
+			"}\n",
+			"body::-webkit-scrollbar-track {",
+			"\tbox-shadow: inset 0 0 ${2:6}px ${3:rgba(0, 0, 0, 0.3)};",
+			"}\n",
+			"body::-webkit-scrollbar-thumb {",
+			"\tbackground-color: var(--${4});",
+			"\tborder-radius: ${5:10}px;",
+			"}"
+		],
+		"description": "This is to make a custom scroll bar in css."
+	},
+	"Changing the color when selecting text": {
+		"scope": "css",
+		"prefix": "selection",
+		"body": [
+			"::selection {",
+			"\tcolor: ${1:#fff};",
+			"\tbackground: var(--${2:main-color});",
+			"}"
+		],
+		"description": "Change the color of the text when you select it by mouse."
+	}
+}
